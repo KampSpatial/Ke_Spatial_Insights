@@ -1,0 +1,41 @@
+project:
+  type: website
+  resources:
+    - ads.txt 
+  output-dir: docs
+
+website:
+  title: "SpatialInsights"
+  navbar:
+    left: 
+      - text: About
+        href: about.qmd
+      - text: Blogs
+        href: blogz.qmd
+      - text: Contacts
+        href: contz.qmd
+    right:
+      - icon: facebook
+        href: https://facebook.com/BenAmollo
+      - icon: twitter
+        href: https://twitter.com/Plan_Ben_Amollo
+      - icon: instagram
+        href: https://instagram.com/Ben.Amollo
+      - icon: whatsapp
+        href: https://whatsapp.com/+254721646495
+      - icon: github
+        href: https://github.com/KampSpatial
+      - icon: linkedin
+        href: https://linkedin.com/BenAmollo
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+    sharing:
+      twitter: true
+      facebook: true
+      linkedin: true
+      email: true
+
+editor: visual
+
